@@ -18,6 +18,7 @@ class TagAutocomplete(Input):
 		    'all': ('%s/jquery.autocomplete.css' % js_base_url,)
 		}
 		js = (
-			'%s/lib/jquery.js' % js_base_url,
+			#now jquery library is shipped with django 1.2 version or grater
+			#'%s/lib/jquery.js' % js_base_url,
 			'%s/jquery.autocomplete.js' % js_base_url,
 			)
