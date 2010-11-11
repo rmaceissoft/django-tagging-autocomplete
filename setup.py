@@ -9,7 +9,7 @@ setup(
     license = "GNU",
     url = "http://github.com/l1f7/django-tagging-autocomplete",
     packages = [
-        "django-tagging-autocomplete"
+        "tagging_autocomplete"
     ],
     classifiers = [
         "Environment :: Web Environment",
